@@ -1,0 +1,173 @@
+*{
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Playfair Display', serif;
+	line-height: 1.5;
+}
+.container{
+	width: 1100px;
+	margin: 0 auto;
+	
+}
+
+.row, 
+.row::after, 
+.row::before{
+	display: table;
+	clear: both;
+	width: 100%;
+}
+
+
+
+
+.navbar li{
+	display: inline-block;
+}
+
+
+.heroImg{
+	padding: 65px 0 95px;
+}
+
+.navbar li a, .navbar li a:visited{
+	display: inline-block;
+	font-size: 14px;
+	text-transform: uppercase;
+	color: #626262;
+	padding: 10px ;
+	text-transform: uppercase;
+}
+
+.navbar li{
+	margin-left: 90px;
+}
+
+
+.pri-heading{
+	font-size: 14px;
+	font-weight: lighter;
+	color: #b4ad9e;
+	text-transform: uppercase;
+	margin-bottom: 30px;
+	font-family: 'Ubuntu', sans-serif;
+}
+
+.comment{
+	font-size: 14px;
+	font-weight: lighter;
+	color: #b4ad9e;
+	text-transform: uppercase;
+}
+
+.sec-heading{
+	font-size: 30px;
+	color: #626262;
+	font-weight: 400;
+	margin-bottom: 30px;
+}
+
+.para{
+	font-size: 14px;
+	color: #626262;
+	margin-bottom: 50px;
+}
+
+
+
+.img{
+	width: 100%;
+	height: 326px;
+}
+
+
+.sign-up{
+	background-color: #f0f0f0;
+	padding: 70px 0;
+}
+
+
+.thumbnail .img{
+	width: 100%;
+	object-fit: cover;
+	margin-bottom: 30px;
+}
+
+
+.photodiary2{
+	padding: 105px 0 70px 0;
+}
+.signup-heading{
+	margin-bottom: 80px;
+}
+.mail-sec input{
+	font-size: 14px;
+	padding: 14px;
+	border: none;
+	border-bottom: 1px solid black;
+	background-color: #f0f0f0;
+	width: 100%;
+}
+
+.mail-sec input:focus-visible{
+	outline: none;
+	
+}
+
+.mail-sec{
+	position: relative;
+}
+
+.mail-sec .fa-location-arrow{
+	font-size: 18px;
+	position: absolute;
+	top: 30%;
+	right: 10px;
+	transform: rotate(403deg);
+}
+.loadbtn {
+	font-size: 20px;
+	color: #626262;
+	padding: 20px 34px;
+	background-color: #fff;
+	border: 1px solid #000;
+	cursor: pointer;
+	
+}
+
+.loadbtn:hover {
+	background-color: #f0f0f0;
+	color: #b4ad9e;
+	border: 1px solid #b4ad9e;
+}
+
+.footer{
+	padding: 40px 0;
+	background-color: #f0f0f0;
+}
+
+.terms li{
+	display: inline-block;
+	
+}
+
+.terms li a{
+	padding: 10px;
+	color: #000;
+	font-size: 14px;
+	margin-right: 6px;
+}
+
+.socialIcon li{
+	display: inline-block;
+}
+
+.socialIcon li a{
+	color: #000;
+	font-size: 14px;
+	padding: 10px;
+}
